@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../dist/output.css">
+    
+    <title>Home</title>
+</head>
+<body class="bg-slate-50">
+
+<header class="bg-teal-500 text-white">
+    <nav class="container mx-auto items-center flex justify-between bg-teal-500 p-6 relative">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <p class="text-lg"> Kay Vargas</p>
+        </div>
+            <div class="object-right flex ">
+                <a class="p-3 invisible lg:visible underline" href="./projects.html">Projects</a>
+                <a class="p-3 block invisible lg:visible underline" href="./about.html">About</a>
+            </div>
+        <div class="block lg:hidden z-20" >
+          <button class="items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white" id="toggle" >
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+        </div>
+        <nav id="dropdown" class="fixed top-0 bottom-0 -right-full bg-teal-500 w-52 transition-all z-10">
+            <ul class="md:flex-wrap">
+                <li >
+                    <br><br><br><br>
+                    <a class="p-3 underline" href="./projects.html">Projects</a>
+                </li>
+                <br>
+                <li>
+                    <a class="p-3 underline" href="./about.html">About</a>
+                </li>
+              
+            </ul>
+        </nav>
+      </nav>
+    </header>
+      <script src="./navigation.js"></script>
+
+    <div id="body" class="container mx-auto blur-none z-0">
+        <br><ul>
+        <div class="p-6 max-w-m mx-auto lg:w-2/3 bg-white rounded-xl shadow-lg items-center space-x-4 hover:shadow-xl m-4">
+            <h1 class="font-serif underline"> Mathematician and Computer Scientist </h1>
+            <li> 
+               <p class="font-serif pl-10 m-2 p-2 "> 
+                 Hello, I am a Computer Science and Mathematics
+                 double major at Cal Poly Humboldt.
+                 I am currently completing my third year here after having 
+                 transfered from Merced Junior College in Spring 2020. This is where 
+                 I completed an AST in psychology.<br> My current interests
+                 are algorithms, abstract algebra, and information theory.
+                  
+               </p> 
+            </div>
+        
+         
+            <div class="p-6 max-w-m lg:w-2/3 mx-auto bg-white rounded-xl shadow-lg items-center space-x-4 hover:shadow-xl m-4">
+                <h2 class="font-serif underline">Computer Science Abilities </h2>
+            <li class="m-2 p-2 font-serif columns-2 ">
+                <h2> Coding Proficiencies:</h2>
+                    <ol class="m-2 p-2 pl-10">
+                        <li> SQL</li>
+                        <li> C++/Python</li>
+                        <li> Unix</li>
+                        <li> JavaScript/html</li>
+                        <li> PL/SQL</li>    
+                        <li> Bootstrap/Tailwind</li> 
+                    </ol>
+                <h3> Concept Proficiencies:</h3>
+                    <ol class="m-2 p-2 pl-10">
+                        <li>Runtime Complexity</li>
+                        <li>Database Design</li>
+                        <li>Object Oriented Programming</li>
+                        <li>Basic Algorithms</li>
+                        <li>Website Design </li>   
+
+                    </ol>
+            </li>
+        </div>
+        <div class="p-6 max-w-m lg:w-2/3 mx-auto bg-white rounded-xl shadow-lg items-center space-x-4 hover:shadow-xl m-4">
+            <h2 class="font-serif underline">Mathmatical Abilities</h2>
+            <li class="m-2 p-2 font-serif">
+                <h3>Current Understandings:</h3>
+                    <ol class="m-2 p-2 pl-10">
+                        <li> Calculus I-III</li>
+                        <li> Introductory ODE's </li>
+                        <li> Logic</li>
+                        <li> Introductory Linear Algebra</li>
+                        <li> Abstract Algebra</li>
+                        <li> Discrete Math</li>  
+                    </ol>
+                </div>
+                <div class="p-6 max-w-m lg:w-2/3 mx-auto bg-white rounded-xl shadow-lg items-center space-x-4 hover:shadow-xl m-4">
+                <li class="m-2 p-2 font-serif">
+                <h3 class="underline"> Associations </h3>
+                    <ol class="m-2 p-2 pl-10">
+                        <li>Cal Poly Humboldt CS club
+                            <div class="m-2 p-2 pl-10">
+                                <p>
+                                    Treasurer of the club from April 2022 - current
+                                </p>
+                            </div>      
+                        </li>
+                       
+                        <li>Learning Center</li>
+                        <div class="m-1 p-2 pl-10">
+                            <ul>
+                               <li>
+                                Embedded Tutor for College Algebra (2 semesters)
+                                and Calculus (1 semester)
+                                <div class="m-1 p-2 pl-10">
+                                    <a href="https://learning.humboldt.edu/math-tutoring-lab" target="_blank" class="underline hover:bg-teal-100">Click here to learn more</a>
+                                </div>
+                               </li> 
+                            </div>
+                               <li class="m-1">
+                                Drop in tutor for the following courses:
+                               </li>
+                               <div class="m-1 p-2 pl-10">
+                                    <li> Calc I-III</li>
+                                    <li> CS Foundations I-II</li>
+                                    <li> Algebra & Precalculus</li> 
+                                </div>
+
+                                <li>Cal-Bridge Scholar</li>
+                                <div class="m-1 p-2 pl-10">
+                                    <a href="https://www.cpp.edu/calbridge/about/program-structure.shtml" target="_blank"class="underline hover:bg-teal-100">Click here to learn more</a>
+                                </div>
+                            </ul>
+                    </div>
+               </ol>
+            </li>
+        </ul>
+    </div>
+        
+    </div> 
+    
+   
+        <footer class="items-center bg-teal-500 p-2 static inset-x-0 bottom-0  z-0" id="body"> 
+                <div class="items-center text-white mr-6 pl-10 text-center font-serif">
+                    Contact me at: kv111@humboldt.edu
+                </div>
+        </footer>
+   
+    
+        
+</body>
+</html>

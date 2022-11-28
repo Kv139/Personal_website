@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../dist/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Projects</title>
+</head>
+<body class="bg-slate-50">
+
+    <header class="bg-teal-500 text-white">
+        <nav class="container mx-auto items-center flex justify-between bg-teal-500 p-6">
+            <div class="flex items-center flex-shrink-0 text-white mr-6">
+                    <p class="text-lg"> Kay Vargas</p>
+            </div>
+                <div class="object-right flex">
+                    <a class="p-3 invisible lg:visible underline" href="./index.html">Home</a>
+                    <a class="p-3 block invisible lg:visible underline" href="./about.html">About</a>
+                </div>
+            <div class="block lg:hidden z-20" >
+              <button class="items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white" id="toggle" >
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+              </button>
+            </div>
+            <nav id="dropdown" class="fixed top-14 bottom-5 -right-full bg-teal-500 w-52 transition-all z-10">
+                <ul class="md:flex-wrap">
+                    <li >
+                        <br><br>
+                        <a class="p-3 underline" href="./index.html">Home</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a class="p-3 underline" href="./about.html">About</a>
+                    </li>
+                  
+                </ul>
+            </nav> 
+          </nav>
+        </header>
+          <script src="./navigation.js"></script>
+
+        <div id="body" class="container mx-auto blur-none z-0">
+          <div class="p-6 max-w-m lg:w-2/3 mx-auto bg-white rounded-xl shadow-lg items-center space-x-4 hover:shadow-xl m-4">
+            <h1 class="underline"> Modeling Harmonic Dampening</h1>
+                <p>  This project was used to generate vector fields and graphs to help understand the different effects of dampening 
+                     and varying coeffiecents on the overall system behavior. This is writen in python using matplotlib, tkintor, and other libraries.
+                     Modeled equations and methods can be found in the example essay. This code allows you to initialize variables along with starting and ending conditions
+                </p>
+                <br>
+                <a href="./ExamplePaper.docx" target="_blank" class="underline pl-10 hover:bg-teal-100"> Example analysis/paper(download)</a>
+                <br>
+                <a href="../py_program/example_program/Ode_grapher.py" target="_blank" class="underline pl-10 font-sans hover:bg-teal-100">Source Code(download)</a>
+                </div>
+    
+              
+                <div class="p-6 max-w-m lg:w-2/3 mx-auto bg-white rounded-xl shadow-lg items-center space-x-4 hover:shadow-xl m-4">
+                    <h1 class="font-serif underline pt-2 pl-10">Here are some example graphs generated with the following program:</h1> 
+                    <ul class=" group m-2 p-2 font-serif md:columns-2 p-6 columns-1 underline">
+                    <li class="transition ease-in-out p-1 m-1 max-w-m mx-auto items-center space-x-4 md:hover:scale-110">
+                        <img src="../imgs/Figure_1_param1.png">
+                    </li>
+                    <li class="transition ease-in-out p-1 m-1 max-w-m mx-auto items-center space-x-4 md:hover:scale-110">
+                        <img src="../imgs/Figure_3_param1.png">
+                    </li>
+                    <li class="transition ease-in-out p-1 m-1 max-w-m mx-auto items-center space-x-4 md:hover:scale-110">
+                        <img src="../imgs/Figure_4.png" height="120%">
+                    </li>
+                    <li class="transition ease-in-out p-1 m-1 max-w-m mx-auto items-center space-x-4 md:hover:scale-110">
+                        <img src="../imgs/Figure_2_param1.png">
+                    </li>
+                </ul> 
+                </div>
+        
+        </div>
+
+
+
+
+
+
+
+
+
+
+          
+        <footer class="items-center bg-teal-500 p-2 static inset-x-0 bottom-0  z-0" id="body"> 
+            <div class="items-center font-serif text-white mr-6 pl-10 text-center">
+                Contact me at: kv111@humboldt.edu
+            </div>
+    </footer>
+</body>
